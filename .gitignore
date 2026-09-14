@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+downloads/
+cookies*
+*.cookies
+.env*
+.DS_Store

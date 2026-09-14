@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "instagram-reels-audio"
+version = "0.1.0"
+description = "Download the audio from Instagram Reels with a simple local CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["yt-dlp>=2025.1.26"]
+
+[project.scripts]
+reel-audio = "instagram_reels_audio.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["instagram_reels_audio*"]
