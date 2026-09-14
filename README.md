@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# Instagram Reels Audio Downloader — FluxNote Open Source
+# Instagram Reels Audio Downloader — FluxNote
 
 Turn an Instagram Reel link into an audio file with a simple **Python command-line tool**. Save **MP3, M4A, or WAV** files locally, download multiple Reels in a batch, and optionally use your browser session when Instagram requires login.
 
